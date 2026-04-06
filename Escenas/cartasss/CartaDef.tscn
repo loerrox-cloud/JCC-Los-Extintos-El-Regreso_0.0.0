@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://c7coxij6t84xm"]
+
+[ext_resource type="PackedScene" uid="uid://dm7apgbbm2qha" path="res://Escenas/cartasss/CartaEscena.tscn" id="1_3djvc"]
+[ext_resource type="Texture2D" uid="uid://dcd7irw4karec" path="res://sprites/Escudo.jpg" id="2_j8d74"]
+
+[node name="CartaBuff" type="Node2D"]
+
+[node name="Carta" parent="." node_paths=PackedStringArray("CartaSprite") instance=ExtResource("1_3djvc")]
+Nombre = "Defensa"
+Descripcion = "Defender"
+Vida = 200
+Coste = 2
+CartaSprite = NodePath("../SpriteCarta")
+
+[node name="SpriteCarta" type="Sprite2D" parent="."]
+position = Vector2(235, 181)
+scale = Vector2(2.65865, 2.6925)
+texture = ExtResource("2_j8d74")

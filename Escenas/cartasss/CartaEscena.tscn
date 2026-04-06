@@ -1,0 +1,98 @@
+[gd_scene load_steps=7 format=3 uid="uid://dm7apgbbm2qha"]
+
+[ext_resource type="Script" path="res://Scripts/carta.gd" id="1_cd350"]
+[ext_resource type="Texture2D" uid="uid://dq7riktff4j2q" path="res://sprites/Blanco.jpg" id="2_vf5bq"]
+[ext_resource type="Texture2D" uid="uid://byuicp2gs565l" path="res://sprites/imagen1.jpg" id="3_5u7m4"]
+[ext_resource type="Texture2D" uid="uid://byeybu54l476d" path="res://sprites/circulo1.png" id="4_u2o2r"]
+[ext_resource type="Texture2D" uid="uid://47ci4s6ii7b4" path="res://sprites/masuno1.png" id="5_fn6ix"]
+[ext_resource type="Texture2D" uid="uid://dbwt1hl8pwdw6" path="res://sprites/Flecha.png" id="6_1yhf7"]
+
+[node name="Carta" type="Node2D" node_paths=PackedStringArray("CartaSprite")]
+position = Vector2(197, 168)
+script = ExtResource("1_cd350")
+CartaSprite = NodePath("CartaSprite")
+
+[node name="CartaBaseSprite" type="Sprite2D" parent="."]
+position = Vector2(23, 22)
+scale = Vector2(3.07566, 3.99395)
+texture = ExtResource("2_vf5bq")
+
+[node name="CartaSprite" type="Sprite2D" parent="."]
+position = Vector2(20, 3)
+scale = Vector2(1.73333, 2.05)
+texture = ExtResource("3_5u7m4")
+
+[node name="NombreLabel" type="Label" parent="."]
+offset_left = -50.0
+offset_top = -58.0
+offset_right = 101.0
+offset_bottom = -14.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_shadow_color = Color(1, 1, 1, 0.992157)
+theme_override_font_sizes/font_size = 31
+text = "Moschops"
+metadata/_edit_use_anchors_ = true
+
+[node name="Vida" type="Node2D" parent="."]
+
+[node name="SpriteVida" type="Sprite2D" parent="Vida"]
+position = Vector2(52.75, 36)
+scale = Vector2(1.43333, 1.36667)
+texture = ExtResource("4_u2o2r")
+
+[node name="VidaLabel" type="Label" parent="Vida"]
+offset_left = 44.0
+offset_top = 24.0
+offset_right = 84.0
+offset_bottom = 47.0
+theme_override_colors/font_color = Color(0.432879, 0.525163, 0.18149, 1)
+text = "50"
+metadata/_edit_use_anchors_ = true
+
+[node name="CuracionSprite" type="Sprite2D" parent="Vida"]
+modulate = Color(1, 1, 1, 0.509804)
+position = Vector2(39, 33)
+scale = Vector2(1.38889, 1.5)
+texture = ExtResource("5_fn6ix")
+
+[node name="Coste" type="Node2D" parent="."]
+position = Vector2(11, 0)
+
+[node name="CosteLabel" type="Label" parent="Coste"]
+offset_left = -46.0
+offset_top = 23.0
+offset_right = -27.0
+offset_bottom = 46.0
+theme_override_colors/font_color = Color(0.482353, 0, 0.905882, 1)
+text = "10"
+metadata/_edit_use_anchors_ = true
+
+[node name="Descripcion" type="Node2D" parent="."]
+
+[node name="DescripcionSprite" type="Sprite2D" parent="Descripcion"]
+position = Vector2(-27, 68)
+scale = Vector2(1.8, 1.41667)
+texture = ExtResource("6_1yhf7")
+
+[node name="DescripcionLabel" type="Label" parent="Descripcion"]
+offset_left = -15.0
+offset_top = 60.0
+offset_right = 81.0
+offset_bottom = 113.0
+theme_override_colors/font_color = Color(0.707967, 0.707967, 0.707967, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 10
+text = "Embestida"
+metadata/_edit_use_anchors_ = true
+
+[node name="Paralizado" type="Label" parent="."]
+offset_left = -41.0
+offset_top = -20.0
+offset_right = 85.0
+offset_bottom = 15.0
+theme_override_colors/font_color = Color(0, 0, 0, 0.439216)
+theme_override_font_sizes/font_size = 25
+text = "Paralizado"
+metadata/_edit_use_anchors_ = true
+
+[node name="Node" type="Node" parent="."]
