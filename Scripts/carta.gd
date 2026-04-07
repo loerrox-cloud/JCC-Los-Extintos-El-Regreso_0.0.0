@@ -1,10 +1,11 @@
+@tool
 class_name Carta extends Node2D
 
 @export var Nombre: String = "Nombre"
 @export var Descripcion: String = "Ataque"
 @export var Vida: int = 50
 @export var Coste: int = 1
-@export var CartaSprite: Node2D
+@export var CartaSprite: Sprite2D
 @export var CALLE: int = 2
 
 
