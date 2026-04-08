@@ -1,9 +1,11 @@
-[gd_scene load_steps=3 format=3 uid="uid://c7coxij6t84xm"]
+[gd_scene load_steps=4 format=3 uid="uid://c7coxij6t84xm"]
 
 [ext_resource type="PackedScene" uid="uid://dm7apgbbm2qha" path="res://Escenas/cartasss/CartaEscena.tscn" id="1_3djvc"]
+[ext_resource type="Script" path="res://Escenas/cartasss/carta_def.gd" id="1_ikjug"]
 [ext_resource type="Texture2D" uid="uid://dcd7irw4karec" path="res://sprites/Escudo.jpg" id="2_j8d74"]
 
 [node name="CartaBuff" type="Node2D"]
+script = ExtResource("1_ikjug")
 
 [node name="Carta" parent="." node_paths=PackedStringArray("CartaSprite") instance=ExtResource("1_3djvc")]
 Nombre = "Defensa"
@@ -16,3 +18,6 @@ CartaSprite = NodePath("../SpriteCarta")
 position = Vector2(235, 181)
 scale = Vector2(2.65865, 2.6925)
 texture = ExtResource("2_j8d74")
+
+[connection signal="mouse_entered" from="." to="." method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="." to="." method="_on_mouse_exited"]
