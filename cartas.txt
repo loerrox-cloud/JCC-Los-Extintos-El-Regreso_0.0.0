@@ -1,0 +1,892 @@
+El Pepe
+0
+0
+0
+0
+0
+Estaño
+Omnisciente
+Atemporal
+Desaparecer
+
+
+Criatura 1:
+Aegirocassis
+3
+60
+30
+15
+49
+Bronce
+Acuático
+Paleozoico
+Cabezazo
+Persecución 
+Contramordisco
+
+Criatura 2:
+Anomalocaris
+5
+80
+60
+10
+67
+Plata
+Acuático
+Paleozoico
+Picotazo
+Mutilación
+
+Criatura 3:
+Cephalaspis
+4
+65
+35
+15
+48
+Bronce
+Acuático
+Paleozoico
+Cabezazo
+Mutación Espontánea
+Entrada sanadora
+
+Criatura 4:
+Coelurosauravus
+2
+75
+30
+0
+81
+Bronce
+Volador
+Paleozoico
+Golpe de Cola
+Ciclón
+
+Criatura 5:
+Dicynodon
+3
+50
+40
+10
+79
+Plata
+Terrestre
+Paleozoico
+Cabezazo
+Arrojaarena
+Contramordisco
+
+Criatura 6:
+Dimetrodon
+3
+70
+50
+0
+47
+Bronce
+Terrestre
+Paleozoico
+Mordisco
+Despliegue Intimidante
+
+
+Criatura 7:
+Diplocaulus
+3
+80
+40
+0
+70
+Plata
+Anfibio
+Paleozoico
+Golpe Anfibio
+Intimidar
+
+
+Criatura 8:
+Dunkleosteus
+5
+110
+65
+15
+38
+Plata
+Acuático
+Paleozoico
+Cabezazo
+Lacerar
+
+Criatura 9:
+Edaphosaurus
+3
+60
+40
+0
+51
+Plata
+Terrestre
+Paleozoico
+Golpe de Cola
+Intimidar
+Contra-ira
+
+
+Criatura 10:
+Endoceras
+4
+70
+25
+20
+33
+Plata
+Acuático
+Paleozoico
+Zampar
+Fortalecer
+
+Criatura 11:
+Estemmenosuchus
+4
+90
+60
+5
+52
+Plata
+Terrestre
+Paleozoico
+Embestida
+Arrojaarena
+
+
+Criatura 12:
+Helicoprion
+2
+40
+50
+0
+66
+Bronce
+Acuático
+Paleozoico
+Asalto Purificador
+Desarme Bestial
+Contradeceleración
+
+Criatura 13:
+Inostrancevia
+3
+60
+55
+0
+64
+Bronce
+Terrestre
+Paleozoico
+Golpe
+Mordisco Rabioso
+Entrada amedrentadora
+
+
+Criatura 14:
+Jonkeria
+3
+65
+50
+10
+24
+Bronce
+Terrestre
+Paleozoico
+Mordisco
+Arañazo Lacerante
+
+
+Criatura 15:
+Meganeura
+3
+55
+55
+5
+90
+Bronce
+Volador
+Paleozoico
+Asalto Aéreo
+Mordisco Rabioso
+
+
+Criatura 16:
+Moschops
+2
+70
+35
+15
+26
+Bronce
+Terrestre
+Paleozoico
+Golpe
+Cabezazo
+
+
+Criatura 17:
+Ophiacodon
+2
+40
+70
+0
+39
+Bronce
+Terrestre
+Paleozoico
+Mordisco
+Desarme Bestial
+Entrada fugaz
+
+
+Criatura 18:
+Pulmonoscorpius
+4
+55
+55
+15
+48
+Bronce
+Terrestre
+Paleozoico
+Picotazo Hiriente
+Mutilación
+
+
+Criatura 19:
+Prionosuchus
+4
+80
+40
+0
+37
+Plata
+Anfibio
+Paleozoico
+Golpe
+Empantanar
+
+
+Criatura 20:
+Tiktaalik
+6
+130
+55
+0
+63
+Oro
+Anfibio
+Paleozoico
+Golpe
+Diezmar
+
+
+Criatura 21:
+Carnotaurus
+4
+55
+50
+0
+70
+Bronce
+Terrestre
+Mesozoico
+Zampar
+Carga
+
+
+Criatura 22:
+Concavenator
+5
+75
+70
+0
+65
+Oro
+Terrestre
+Mesozoico
+Mordisco Fatal
+Desarme Bestial
+
+
+Criatura 23:
+Dakosaurus
+3
+50
+55
+0
+63
+Bronce
+Acuático
+Mesozoico
+Mordisco
+Arañazo
+Entrada fugaz
+
+
+Criatura 24:
+Darwinopterus
+2
+55
+30
+0
+84
+Bronce
+Volador
+Mesozoico
+Asalto Aéreo
+Persecución
+Contra-ira
+
+
+Criatura 25:
+Dearc
+2
+40
+30
+0
+77
+Bronce
+Volador
+Mesozoico
+Arañazo Lacerante
+Enrabiar
+Contraintimidación
+
+
+
+Criatura 26:
+Europejara
+2
+60
+30
+0
+72
+Plata
+Volador
+Mesozoico
+Picotazo Hiriente
+Respiro y Descanso
+Entrada feroz
+
+
+
+Criatura 27:
+Gigantspinosaurus
+3
+60
+30
+15
+29
+Bronce
+Terrestre
+Mesozoico
+Golpe de Cola
+Bramido
+Contramordisco
+
+
+
+Criatura 28:
+Hesperornis
+3
+40
+55
+0
+65
+Bronce
+Anfibio
+Mesozoico
+Picotazo
+Remolino
+
+
+Criatura 29:
+Mastodonsaurus
+4
+70
+40
+0
+43
+Bronce
+Anfibio
+Mesozoico
+Zampar
+Agua Fangosa
+
+
+Criatura 30:
+Monolophosaurus
+2
+55
+45
+0
+54
+Bronce
+Terrestre
+Mesozoico
+Arañazo
+Mutilación
+Entrada fugaz
+
+
+Criatura 31:
+Lariosaurus
+3
+50
+50
+0
+59
+Bronce
+Acuático
+Mesozoico
+Asalto Purificador
+Rompeolas
+Entrada sanadora
+
+
+Criatura 32:
+Liopleurodon
+5
+75
+30
+0
+58
+Bronce
+Acuático
+Mesozoico
+Mordisco
+Rompeolas
+
+
+Criatura 33:
+Parapuzosia
+3
+45
+30
+30
+17
+Bronce
+Acuático
+Mesozoico
+Golpe
+Refugio
+
+
+Criatura 34:
+Pterodaustro
+2
+55
+50
+0
+74
+Bronce
+Volador
+Mesozoico
+Picotazo
+Borrasca
+Contradesarme
+
+
+Criatura 35:
+Quetzalcoatlus
+6
+90
+70
+0
+38
+Plata
+Volador
+Mesozoico
+Picotazo
+Ventaja de armadura
+
+Criatura 36:
+Spinosaurus
+5
+90
+50
+0
+54
+Plata
+Anfibio
+Mesozoico
+Arañazo Lacerante
+Mordisco Sanador
+Entrada hiriente
+
+
+Criatura 37:
+Smilosuchus
+3
+60
+50
+5
+44
+Bronce
+Anfibio
+Mesozoico
+Golpe de Cola
+Desarme Bestial
+Contrafortalecimiento
+
+Criatura 38:
+Triceratops
+5
+100
+55
+10
+36
+Plata
+Terrestre
+Mesozoico
+Embestida
+Carga
+
+Criatura 39:
+Turiasaurus
+4
+130
+35
+0
+11
+Bronce
+Terrestre
+Mesozoico
+Golpe de Cola
+Temblor
+
+
+Criatura 40:
+Tyrannosaurus
+7
+135
+95
+0
+18
+Oro
+Terrestre
+Mesozoico
+Remezón
+Mordisco Tirano
+
+
+Criatura 41:
+Águila De Haast
+3
+70
+45
+0
+69
+Plata
+Volador
+Cenozoico
+Asalto Aéreo
+Talones Furiosos
+
+
+Criatura 42:
+Ambulocetus
+4
+60
+30
+0
+49
+Bronce
+Anfibio
+Cenozoico
+Zampar
+Teratogénico
+
+
+Criatura 43:
+Alca Gigante
+4
+70
+50
+0
+54
+Bronce
+Anfibio
+Cenozoico
+Acicalar
+Zampar
+Entrada hiriente
+
+
+Criatura 44:
+Arctodus
+4
+65
+70
+5
+29
+Bronce
+Terrestre
+Cenozoico
+Mordisco
+Desarme Bestial
+Contradeceleración
+
+
+Criatura 45:
+Argentavis
+5
+95
+45
+0
+78
+Oro
+Volador
+Cenozoico
+Picotazo
+Tornado
+
+
+Criatura 46:
+Chalicotherium
+4
+65
+40
+0
+41
+Bronce
+Terrestre
+Cenozoico
+Arañazo Lacerante
+Arrojaarena
+
+
+Criatura 47:
+Desmodus draculae
+4
+65
+55
+0
+72
+Bronce
+Volador
+Cenozoico
+Chupasangres
+Mordisco
+Entrada fugaz
+
+
+Criatura 48:
+Dromornis
+3
+75
+30
+0
+58
+Plata
+Terrestre
+Cenozoico
+Arañazo
+Respiro y Descanso
+Contramordisco
+
+
+Criatura 49:
+Elasmotherium
+3
+60
+50
+10
+43
+Bronce
+Terrestre
+Cenozoico
+Embestida
+Cabezazo
+Contra-ira
+
+
+Criatura 50:
+Icaronicteryx
+4
+65
+30
+0
+84
+Bronce
+Volador
+Cenozoico
+Mordisco Sanador
+Golpe de Ala
+Contrasangrado
+
+
+Criatura 51:
+Mamut Colombino
+4
+90
+55
+5
+39
+Plata
+Terrestre
+Cenozoico
+Golpe
+Temblor
+
+
+
+Criatura 52:
+Megalodon
+6
+140
+50
+0
+35
+Oro
+Acuático
+Cenozoico
+Golpe de Cola
+Mordisco Rabioso
+
+
+Criatura 53:
+Garza de flores
+3
+45
+50
+0
+67
+Bronce
+Volador
+Cenozoico
+Picotazo Hiriente
+Talones Furiosos
+Entrada amedrentadora
+
+
+Criatura 54:
+Livyatan
+7
+155
+50
+0
+47
+Oro
+Acuático
+Cenozoico
+Cabezazo
+Remolino
+
+
+Criatura 55:
+Odobenocetops
+4
+70
+40
+0
+63
+Bronce
+Acuático
+Cenozoico
+Cabezazo
+Remolino
+Entrada ralentizante
+
+
+Criatura 56:
+Pelagornis
+3
+90
+30
+0
+74
+Bronce
+Volador
+Cenozoico
+Picotazo
+Golpe de Ala
+
+
+Criatura 57:
+Purussaurus
+5
+70
+65
+15
+39
+Bronce
+Anfibio
+Cenozoico
+Zampar
+Desarme Bestial
+
+Criatura 58:
+Thalassocnus
+3
+70
+60
+0
+40
+Bronce
+Anfibio
+Cenozoico
+Arañazo
+Acicalar
+Entrada sanadora
+
+Criatura 59:
+Thylacoleo
+3
+60
+50
+0
+52
+Bronce
+Terrestre
+Cenozoico
+Mordisco Fatal
+Intimidar
+
+Criatura 60:
+Titanoboa
+4
+70
+55
+0
+34
+Plata
+Anfibio
+Cenozoico
+Zampar
+Ventaja de armadura
+
+Criatura 61:
+Varanus priscus
+4
+60
+50
+0
+49
+Bronce
+Terrestre
+Cenozoico
+Arañazo Lacerante
+Mordisco Rabioso
+
+
+BENSON MUSHASHO
+69
+420
+69
+13
+25
+Diamante
+Omnisciente
+Atemporal
+Pal de chicle
+¿Cómo tan muchacho?

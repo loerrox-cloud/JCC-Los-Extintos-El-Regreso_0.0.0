@@ -1,33 +1,37 @@
-[gd_scene load_steps=3 format=3 uid="uid://cb7fuo7vnthyk"]
+[gd_scene format=3 uid="uid://cb7fuo7vnthyk"]
 
-[ext_resource type="Script" path="res://deck.gd" id="1_yyctx"]
+[ext_resource type="Script" uid="uid://duhgveusm51o" path="res://deck.gd" id="1_yyctx"]
 [ext_resource type="PackedScene" uid="uid://d3uwfjr17diiy" path="res://Escenas/mano.tscn" id="2_wcn2j"]
 
-[node name="DeckNHand" type="Node2D"]
+[node name="DeckNHand" type="Node2D" unique_id=1414416079]
 script = ExtResource("1_yyctx")
 
-[node name="CanvasLayer" type="CanvasLayer" parent="."]
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1446329122]
 
-[node name="Mano" parent="CanvasLayer" instance=ExtResource("2_wcn2j")]
-position = Vector2(587, 1472)
+[node name="Mano" parent="CanvasLayer" unique_id=1718696345 instance=ExtResource("2_wcn2j")]
+position = Vector2(601, 2489)
+hand_radius = 2000
+max_card_spread_angle = 5.0
 
-[node name="Button" type="Button" parent="."]
-offset_left = 124.0
-offset_top = 69.0
-offset_right = 336.0
-offset_bottom = 169.0
+[node name="Button" type="Button" parent="." unique_id=266484474]
+offset_left = 203.0
+offset_top = 88.0
+offset_right = 508.0
+offset_bottom = 188.0
 theme_override_font_sizes/font_size = 55
-text = "Crear carta barata"
+text = "Crear carta"
 
-[node name="Button2" type="Button" parent="."]
-offset_left = 169.0
-offset_top = 231.0
-offset_right = 565.0
-offset_bottom = 308.0
+[node name="Button2" type="Button" parent="." unique_id=25064230]
+visible = false
+offset_left = 116.0
+offset_top = 246.0
+offset_right = 616.0
+offset_bottom = 323.0
 theme_override_font_sizes/font_size = 45
-text = "Crear carta fuerte"
+text = "Crear carta de defensa"
 
-[node name="Button3" type="Button" parent="."]
+[node name="Button3" type="Button" parent="." unique_id=1269381910]
+visible = false
 offset_left = 154.0
 offset_top = 349.0
 offset_right = 571.0
@@ -36,16 +40,24 @@ theme_override_font_sizes/font_size = 45
 text = "Crear carta de buff
 "
 
-[node name="Button4" type="Button" parent="."]
-offset_left = 150.0
-offset_top = 505.0
-offset_right = 567.0
-offset_bottom = 582.0
+[node name="Button4" type="Button" parent="." unique_id=514362004]
+offset_left = 622.0
+offset_top = 109.0
+offset_right = 1039.0
+offset_bottom = 186.0
 theme_override_font_sizes/font_size = 45
-text = "Crear carta mala
+text = "Carta aleatoria
 "
+
+[node name="LineEdit" type="LineEdit" parent="." unique_id=733660666]
+offset_left = 208.0
+offset_top = 21.0
+offset_right = 506.0
+offset_bottom = 85.0
+placeholder_text = "Introduce nombre de la carta..."
 
 [connection signal="button_down" from="Button" to="." method="_on_button_button_down"]
 [connection signal="button_down" from="Button2" to="." method="_on_button_2_button_down"]
 [connection signal="button_down" from="Button3" to="." method="_on_button_3_button_down"]
 [connection signal="button_down" from="Button4" to="." method="_on_button_4_button_down"]
+[connection signal="text_submitted" from="LineEdit" to="." method="_on_line_edit_text_submitted"]

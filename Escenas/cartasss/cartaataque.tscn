@@ -1,16 +1,16 @@
-[gd_scene load_steps=4 format=3 uid="uid://b6an4ugh8dukx"]
+[gd_scene format=3 uid="uid://b6an4ugh8dukx"]
 
 [ext_resource type="PackedScene" uid="uid://dm7apgbbm2qha" path="res://Escenas/cartasss/CartaEscena.tscn" id="1_ax0m4"]
-[ext_resource type="Script" path="res://Escenas/cartasss/cartaataque.gd" id="1_bluov"]
+[ext_resource type="Script" uid="uid://clfgl55er6555" path="res://Escenas/cartasss/cartaataque.gd" id="1_bluov"]
 [ext_resource type="Texture2D" uid="uid://diw868clynh3x" path="res://sprites/ataque.png" id="2_vc3ys"]
 
-[node name="Cartaataque" type="Node2D"]
+[node name="Cartaataque" type="Node2D" unique_id=1300410522]
 script = ExtResource("1_bluov")
 
-[node name="Carta" parent="." instance=ExtResource("1_ax0m4")]
+[node name="Carta" parent="." unique_id=697222997 instance=ExtResource("1_ax0m4")]
 Vida = 53
 
-[node name="Ataque" type="Sprite2D" parent="."]
+[node name="Ataque" type="Sprite2D" parent="." unique_id=1613181961]
 position = Vector2(222, 177)
 scale = Vector2(4.5, 4.03846)
 texture = ExtResource("2_vc3ys")

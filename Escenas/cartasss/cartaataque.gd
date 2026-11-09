@@ -20,9 +20,9 @@ func highlight():
 func unhighlight():
 	base_sprite.set_modulate(Color(1, 1, 1, 1)) 
 
-func _on_mouse_entered(carta: Carta):
+#func _on_mouse_entered(carta: Carta):
 	mouse_entered.emit(self)# Replace with function body.
 
 
-func _on_mouse_exited(carta: Carta):
+#func _on_mouse_exited(carta: Carta):
 	mouse_exited.emit(self) # Replace with function body.

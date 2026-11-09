@@ -1,18 +1,20 @@
-[gd_scene load_steps=4 format=3 uid="uid://d3uwfjr17diiy"]
+[gd_scene format=3 uid="uid://d3uwfjr17diiy"]
 
-[ext_resource type="Script" path="res://Escenas/mano.gd" id="1_lnmwm"]
+[ext_resource type="Script" uid="uid://dqtwj4hro65r1" path="res://Escenas/mano.gd" id="1_lnmwm"]
 [ext_resource type="PackedScene" uid="uid://dm7apgbbm2qha" path="res://Escenas/cartasss/CartaEscena.tscn" id="2_ojbdf"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_dgig1"]
-radius = 1000.0
+radius = 200.0
 
-[node name="Mano" type="Node2D"]
+[node name="Mano" type="Node2D" unique_id=1443892148]
 script = ExtResource("1_lnmwm")
-card_angle = -90.0
-hand_radius = 1000
+card_angle = 90.0
+hand_radius = 200
 
-[node name="Carta" parent="." instance=ExtResource("2_ojbdf")]
-position = Vector2(0, -1000)
+[node name="Carta" parent="." unique_id=1704017892 instance=ExtResource("2_ojbdf")]
+visible = false
+position = Vector2(0, 200)
+rotation = 3.1415927
 
-[node name="DebugShape" type="CollisionShape2D" parent="."]
+[node name="DebugShape" type="CollisionShape2D" parent="." unique_id=240976394]
 shape = SubResource("CircleShape2D_dgig1")
